@@ -5,8 +5,8 @@ import { useState } from "react";
 import { serverTimestamp } from "@firebase/firestore";
 
 // Import Components
-import Home from "../pages/Home";
-import base from "../pages/firebase";
+import Home from "../components/Home";
+import base from "./firebase";
 
 // Main function
 function SetUser() {

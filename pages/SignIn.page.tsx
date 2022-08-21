@@ -8,7 +8,7 @@ import { Text } from "@mantine/core";
 import { IconBrandGoogle } from "@tabler/icons";
 
 // Import Components
-import base from "../pages/firebase";
+import base from "./firebase";
 import logo from "../public/images/rc-logo.png";
 
 // Main function

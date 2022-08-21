@@ -12,11 +12,11 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 // Components
 import Head from "next/head";
-import Home from "./Home";
-import SignIn from "../components/SignIn";
+import Home from "../components/Home";
+import SignIn from "./SignIn.page";
 import base from "./firebase";
 import ThemeToggle from "../components/ThemeToggle";
-import SetUser from "../components/SetUser";
+import SetUser from "./SetUser.page";
 
 const Index: NextPage = () => {
   const auth = base.auth;
